@@ -1,6 +1,14 @@
 # Heuristic-Driven-Evolutionary-UAV-Path-Planning
 
-## Abstract
-Multi-objective UAV path planning is critical in practical applications such as surveillance, search-and-rescue missions, and environmental monitoring. However, the inherent complexity stemming from conflicting objectives, dynamic operational environments, and stringent mission constraints severely limits the efficacy of conventional evolutionary algorithms. Standard evolutionary operators typically fail to adequately respect domain-specific constraints, leading to infeasible or inefficient flight trajectories. Motivated by these limitations, this paper proposes specialized evolutionary operators tailored explicitly for multi-objective UAV path planning. We introduce a novel crossover operator that strategically employs the A* algorithm to generate feasible offspring paths between selected waypoints from parent solutions. Additionally, we present an adaptive polynomial mutation mechanism that dynamically controls exploration and exploitation by adjusting the mutation factor progressively across generations. Complementing this, we propose a secondary mutation operator utilizing A* to refine path segments effectively. Comprehensive ablation studies demonstrate the synergistic advantage of these innovations. Extensive evaluations on a realistic benchmark environment illustrate that our approach achieves significant enhancements, validated through substantial improvements in the hypervolume metric. Our findings confirm that embedding domain-specific intelligence into evolutionary operators markedly advances the state-of-the-art in multi-objective UAV path planning.
+## 📝 Summary
+
+This work tackles the challenge of **multi-objective UAV path planning** (e.g., surveillance, search-and-rescue, environmental monitoring) where standard evolutionary algorithms often fail due to conflicting goals and strict constraints.  
+
+To address this, we introduce **domain-specific evolutionary operators**:  
+- **A*-guided crossover** → generates feasible paths by connecting waypoints intelligently  
+- **Adaptive polynomial mutation** → balances exploration and exploitation across generations  
+- **A*-based refinement mutation** → fine-tunes path segments for better feasibility  
+
+Experiments on realistic benchmarks show **substantial improvements in hypervolume** and overall performance, confirming that embedding **domain knowledge into evolutionary operators** significantly advances UAV path planning.
 
 ### Coming Soon!
