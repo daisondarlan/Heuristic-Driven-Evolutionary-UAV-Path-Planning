@@ -40,10 +40,11 @@ For more information about the benchmark environments and their generation, plea
 2. Open the cloned repository in MATLAB.
 
 ### Running the Code
-To run the proposed algorithm, execute:
-   ```bash
-   run('MOEAD_AWA_Astar/MOEADAWA_Astar.m')
+- To run the proposed algorithm, execute:
+  ```bash
+  run('MOEAD_AWA_Astar/MOEADAWA_Astar.m')
 
+  
 If you find this work useful in your research, please consider citing our paper:
 ```bash
 @article{darlan2026evolutionary,
