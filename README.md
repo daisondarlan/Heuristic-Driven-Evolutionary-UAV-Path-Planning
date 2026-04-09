@@ -24,7 +24,7 @@ This repository provides the MATLAB code for:
 - `problems/`  
   Contains the benchmark environments used for the path-planning experiments.
 
-For more information about the benchmark environments and their generation, please refer to the companion repository:  
+For more information about the benchmark environments and their generation, please refer to the repository:  
 [UAV-Path-Planning-Benchmark](https://github.com/daisondarlan/UAV-Path-Planning-Benchmark)
 
 ## Getting Started
