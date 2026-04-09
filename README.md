@@ -44,7 +44,6 @@ For more information about the benchmark environments and their generation, plea
   ```bash
   run('MOEAD_AWA_Astar/MOEADAWA_Astar.m')
 
-  
 If you find this work useful in your research, please consider citing our paper:
 ```bash
 @article{darlan2026evolutionary,
