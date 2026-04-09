@@ -37,3 +37,21 @@ For more information about the benchmark environments and their generation, plea
 1. Clone the repository:
    ```bash
    git clone https://github.com/daisondarlan/Heuristic-Driven-Evolutionary-UAV-Path-Planning.git
+2. Open the cloned repository in MATLAB.
+
+### Running the Code
+To run the proposed algorithm, execute:
+   ```bash
+   run('MOEAD_AWA_Astar/MOEADAWA_Astar.m')
+
+If you find this work useful in your research, please consider citing our paper:
+```bash
+@article{darlan2026evolutionary,
+  title={Evolutionary algorithm with domain-specific operators for UAV path planning},
+  author={Darlan, Daison and Ajani, Oladayo S and Mallipeddi, Rammohan},
+  journal={Swarm and Evolutionary Computation},
+  volume={101},
+  pages={102267},
+  year={2026},
+  publisher={Elsevier}
+}
