@@ -1,4 +1,4 @@
-# Evolutionary Algorithm with Domain-Specific Operators for UAV Path Planning
+# Heuristic-Driven Evolutionary UAV Path Planning
 
 This repository contains the MATLAB source code associated with the paper:  
 **Evolutionary Algorithm with Domain-Specific Operators for UAV Path Planning**  
